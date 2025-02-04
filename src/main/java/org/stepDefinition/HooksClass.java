@@ -20,7 +20,7 @@ public class HooksClass extends BaseClass {
 	@After
 	public void tearDown() {
 		
-		quit();
+		//quit();
 		
 	}
 	

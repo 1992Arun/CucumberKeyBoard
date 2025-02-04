@@ -97,6 +97,7 @@ public class StepDefinition extends BaseClass {
 		}
 											
 		
+		System.out.println(val);
 
 		Assert.assertTrue(val);
 	}

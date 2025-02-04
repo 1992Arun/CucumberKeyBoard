@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2025-02-04T15:26:38.710Z",
+        "start_timestamp": "2025-02-04T15:46:24.189Z",
         "before": [
           {
             "result": {
-              "duration": 9089046900,
+              "duration": 9115410800,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1165969100,
+              "duration": 91900,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53434100,
+              "duration": 52840300,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 4270251300,
+              "duration": 4216366500,
               "status": "passed"
             },
             "line": 7,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 317636700,
+              "duration": 464992300,
               "status": "passed"
             },
             "line": 9,
@@ -77,7 +77,7 @@
           },
           {
             "result": {
-              "duration": 88769700,
+              "duration": 135813100,
               "status": "passed"
             },
             "line": 11,
@@ -95,8 +95,9 @@
           },
           {
             "result": {
-              "duration": 382409400,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepDefinition.StepDefinition.verify_multiple_products_displayed(StepDefinition.java:102)\r\n\tat ✽.Verify multiple products 4 displayed(file:src/test/resources/Features/SearchKeyboard.feature:13)\r\n",
+              "duration": 340017600,
+              "status": "failed"
             },
             "line": 13,
             "name": "Verify multiple products 4 displayed",
@@ -113,8 +114,8 @@
           },
           {
             "result": {
-              "duration": 3009778000,
-              "status": "passed"
+              "duration": 57000,
+              "status": "skipped"
             },
             "line": 15,
             "name": "Select Search one of subcategories and enter",
@@ -125,8 +126,8 @@
           },
           {
             "result": {
-              "duration": 29806500,
-              "status": "passed"
+              "duration": 31900,
+              "status": "skipped"
             },
             "line": 17,
             "name": "Verify multiple products 2 displayed",
@@ -143,8 +144,8 @@
           },
           {
             "result": {
-              "duration": 17320800,
-              "status": "passed"
+              "duration": 33200,
+              "status": "skipped"
             },
             "line": 19,
             "name": "Unselect Search in product description and select subCatogory then press Enter",
@@ -155,8 +156,8 @@
           },
           {
             "result": {
-              "duration": 234323200,
-              "status": "passed"
+              "duration": 36800,
+              "status": "skipped"
             },
             "line": 21,
             "name": "Verify multiple products 3 displayed",
