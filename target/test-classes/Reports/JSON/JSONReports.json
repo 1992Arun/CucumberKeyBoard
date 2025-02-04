@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-02-02T01:20:45.542Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8439447100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify we can use all the options of Search functionality using the Keybaord keys",
+        "description": "",
+        "id": "verify-search-functionality-with-keyboard-keys;verify-we-can-use-all-the-options-of-search-functionality-using-the-keybaord-keys",
+        "after": [
+          {
+            "result": {
+              "duration": 1244244000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60131800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Application URL in any supported browser",
+            "match": {
+              "location": "StepDefinition.open_the_Application_URL_in_any_supported_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4247085900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter search product \"HP\" in search box and press Enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HP\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.enter_search_product_in_search_box_and_press_Enter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 369092500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify Navigated to Search Page",
+            "match": {
+              "location": "StepDefinition.verify_Navigated_to_Search_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143246200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter Search \"Mac\"product in Search Criteria and press Enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mac\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinition.enter_Search_product_in_Search_Criteria_and_press_Enter(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 398972300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify multiple products 4 displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.verify_multiple_products_displayed(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3019084300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select Search one of subcategories and enter",
+            "match": {
+              "location": "StepDefinition.select_Search_one_of_subcategories_and_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24806500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify multiple products 2 displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.verify_multiple_products_displayed(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8393300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Unselect Search in product description and select subCatogory then press Enter",
+            "match": {
+              "location": "StepDefinition.unselect_Search_in_product_description_and_select_subCatogory_then_press_Enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444064200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify multiple products 3 displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.verify_multiple_products_displayed(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Search functionality with keyboard Keys",
+    "description": "",
+    "id": "verify-search-functionality-with-keyboard-keys",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SearchKeyboard.feature",
+    "tags": []
+  }
+]
