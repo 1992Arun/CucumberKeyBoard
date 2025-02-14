@@ -3,18 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2025-02-04T15:46:56.081Z",
-        "before": [
-          {
-            "result": {
-              "duration": 13431336500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.setUp()"
-            }
-          }
-        ],
+        "start_timestamp": "2025-02-07T16:51:20.665Z",
         "line": 3,
         "name": "Verify we can use all the options of Search functionality using the Keybaord keys",
         "description": "",
@@ -22,8 +11,9 @@
         "after": [
           {
             "result": {
-              "duration": 62700,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat org.utility.BaseClass.quit(BaseClass.java:249)\r\n\tat org.stepDefinition.HooksClass.tearDown(HooksClass.java:23)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\r\n",
+              "duration": 605000,
+              "status": "failed"
             },
             "match": {
               "location": "HooksClass.tearDown()"
@@ -35,7 +25,7 @@
         "steps": [
           {
             "result": {
-              "duration": 43287000,
+              "duration": 57324500,
               "status": "passed"
             },
             "line": 5,
@@ -47,8 +37,9 @@
           },
           {
             "result": {
-              "duration": 4162830300,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat org.utility.BaseClass.sendKeys(BaseClass.java:80)\r\n\tat org.stepDefinition.StepDefinition.enter_search_product_in_search_box_and_press_Enter(StepDefinition.java:33)\r\n\tat ✽.Enter search product \"HP\" in search box and press Enter(file:src/test/resources/Features/SearchKeyboard.feature:7)\r\n",
+              "duration": 594050100,
+              "status": "failed"
             },
             "line": 7,
             "name": "Enter search product \"HP\" in search box and press Enter",
@@ -65,8 +56,8 @@
           },
           {
             "result": {
-              "duration": 347557500,
-              "status": "passed"
+              "duration": 83600,
+              "status": "skipped"
             },
             "line": 9,
             "name": "verify Navigated to Search Page",
@@ -77,8 +68,8 @@
           },
           {
             "result": {
-              "duration": 78120800,
-              "status": "passed"
+              "duration": 48600,
+              "status": "skipped"
             },
             "line": 11,
             "name": "Enter Search \"Mac\"product in Search Criteria and press Enter",
@@ -95,8 +86,8 @@
           },
           {
             "result": {
-              "duration": 489046600,
-              "status": "passed"
+              "duration": 41800,
+              "status": "skipped"
             },
             "line": 13,
             "name": "Verify multiple products 4 displayed",
@@ -113,8 +104,8 @@
           },
           {
             "result": {
-              "duration": 2996635800,
-              "status": "passed"
+              "duration": 107100,
+              "status": "skipped"
             },
             "line": 15,
             "name": "Select Search one of subcategories and enter",
@@ -125,8 +116,8 @@
           },
           {
             "result": {
-              "duration": 35214700,
-              "status": "passed"
+              "duration": 37100,
+              "status": "skipped"
             },
             "line": 17,
             "name": "Verify multiple products 2 displayed",
@@ -143,8 +134,8 @@
           },
           {
             "result": {
-              "duration": 27461300,
-              "status": "passed"
+              "duration": 37400,
+              "status": "skipped"
             },
             "line": 19,
             "name": "Unselect Search in product description and select subCatogory then press Enter",
@@ -155,8 +146,8 @@
           },
           {
             "result": {
-              "duration": 232682900,
-              "status": "passed"
+              "duration": 39300,
+              "status": "skipped"
             },
             "line": 21,
             "name": "Verify multiple products 3 displayed",
