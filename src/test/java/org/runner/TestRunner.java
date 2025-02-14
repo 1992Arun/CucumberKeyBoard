@@ -9,7 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources", glue="org.stepDefinition", 
-                            monochrome=true, plugin= {"pretty",
+									
+                                      											monochrome=true, plugin= {"pretty",
                             		"json:src\\test\\resources\\Reports\\JSON\\JSONReports.json"})
 public class TestRunner								 {
 	
@@ -18,8 +19,8 @@ public class TestRunner								 {
 	public static void JVMReport() {
 		
 		Utility.getJVMReport("src\\test\\resources\\Reports\\JSON\\JSONReports.json");
-												
+									
 	}
 
 }
-											
+																			

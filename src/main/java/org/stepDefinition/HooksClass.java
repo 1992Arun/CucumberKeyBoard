@@ -1,14 +1,14 @@
 package org.stepDefinition;
 
-import org.junit.BeforeClass;
 import org.utility.BaseClass;
 
 import io.cucumber.java.After;
+import io.cucumber.java.Before;
 
 public class HooksClass extends BaseClass {
 
 	
-	@BeforeClass
+	@Before
 	public void setUp() {
 		
 		browserLaunch("Chrome");
@@ -20,7 +20,7 @@ public class HooksClass extends BaseClass {
 	@After
 	public void tearDown() {
 		
-		quit();
+	//	quit();
 		
 	}
 	

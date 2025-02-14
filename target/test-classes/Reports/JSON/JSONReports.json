@@ -3,7 +3,18 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2025-02-14T18:25:57.464Z",
+        "start_timestamp": "2025-02-14T18:38:19.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8798887800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.setUp()"
+            }
+          }
+        ],
         "line": 3,
         "name": "Verify we can use all the options of Search functionality using the Keybaord keys",
         "description": "",
@@ -11,9 +22,8 @@
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat org.utility.BaseClass.quit(BaseClass.java:251)\r\n\tat org.stepDefinition.HooksClass.tearDown(HooksClass.java:23)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\r\n",
-              "duration": 279300,
-              "status": "failed"
+              "duration": 94500,
+              "status": "passed"
             },
             "match": {
               "location": "HooksClass.tearDown()"
@@ -25,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 37581900,
+              "duration": 56493200,
               "status": "passed"
             },
             "line": 5,
@@ -37,9 +47,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat org.utility.BaseClass.sendKeys(BaseClass.java:82)\r\n\tat org.stepDefinition.StepDefinition.enter_search_product_in_search_box_and_press_Enter(StepDefinition.java:33)\r\n\tat ✽.Enter search product \"HP\" in search box and press Enter(file:src/test/resources/Features/SearchKeyboard.feature:7)\r\n",
-              "duration": 99877900,
-              "status": "failed"
+              "duration": 4256658100,
+              "status": "passed"
             },
             "line": 7,
             "name": "Enter search product \"HP\" in search box and press Enter",
@@ -56,8 +65,9 @@
           },
           {
             "result": {
-              "duration": 28100,
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepDefinition.StepDefinition.verify_Navigated_to_Search_Page(StepDefinition.java:57)\r\n\tat ✽.verify Navigated to Search Page(file:src/test/resources/Features/SearchKeyboard.feature:9)\r\n",
+              "duration": 10127936200,
+              "status": "failed"
             },
             "line": 9,
             "name": "verify Navigated to Search Page",
@@ -68,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 15700,
+              "duration": 81200,
               "status": "skipped"
             },
             "line": 11,
@@ -86,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 12200,
+              "duration": 59300,
               "status": "skipped"
             },
             "line": 13,
@@ -104,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 11200,
+              "duration": 35000,
               "status": "skipped"
             },
             "line": 15,
@@ -116,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 13600,
+              "duration": 36400,
               "status": "skipped"
             },
             "line": 17,
@@ -134,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 10500,
+              "duration": 37300,
               "status": "skipped"
             },
             "line": 19,
@@ -146,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 10900,
+              "duration": 33300,
               "status": "skipped"
             },
             "line": 21,
