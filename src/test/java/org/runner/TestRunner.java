@@ -11,15 +11,15 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src/test/resources", glue="org.stepDefinition", 
                             monochrome=true, plugin= {"pretty",
                             		"json:src\\test\\resources\\Reports\\JSON\\JSONReports.json"})
-public class TestRunner {
+public class TestRunner								 {
 	
 	
 	@AfterClass
 	public static void JVMReport() {
 		
 		Utility.getJVMReport("src\\test\\resources\\Reports\\JSON\\JSONReports.json");
-		
+												
 	}
 
 }
-			
+											
